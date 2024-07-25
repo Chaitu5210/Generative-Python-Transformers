@@ -3,26 +3,34 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "5b1c2421",
+   "id": "0330fc9f",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2024-07-24T04:23:58.387876Z",
-     "iopub.status.busy": "2024-07-24T04:23:58.387480Z",
-     "iopub.status.idle": "2024-07-24T04:23:59.388259Z",
-     "shell.execute_reply": "2024-07-24T04:23:59.387057Z"
+     "iopub.execute_input": "2024-07-25T12:58:24.998853Z",
+     "iopub.status.busy": "2024-07-25T12:58:24.998393Z",
+     "iopub.status.idle": "2024-07-25T12:58:26.035746Z",
+     "shell.execute_reply": "2024-07-25T12:58:26.034622Z"
     },
     "papermill": {
-     "duration": 1.007466,
-     "end_time": "2024-07-24T04:23:59.391162",
+     "duration": 1.045204,
+     "end_time": "2024-07-25T12:58:26.038850",
      "exception": false,
-     "start_time": "2024-07-24T04:23:58.383696",
+     "start_time": "2024-07-25T12:58:24.993646",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/kaggle/input/token-txt/Token.txt\n"
+     ]
+    }
+   ],
    "source": [
     "# This Python 3 environment comes with many helpful analytics libraries installed\n",
     "# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n",
@@ -42,12 +50,69 @@
     "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
     "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "d2791523",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-07-25T12:58:26.046862Z",
+     "iopub.status.busy": "2024-07-25T12:58:26.046255Z",
+     "iopub.status.idle": "2024-07-25T12:58:26.053437Z",
+     "shell.execute_reply": "2024-07-25T12:58:26.052052Z"
+    },
+    "papermill": {
+     "duration": 0.014364,
+     "end_time": "2024-07-25T12:58:26.056175",
+     "exception": false,
+     "start_time": "2024-07-25T12:58:26.041811",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Runing The Code\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Runing The Code\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "418a68e6",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002186,
+     "end_time": "2024-07-25T12:58:26.060975",
+     "exception": false,
+     "start_time": "2024-07-25T12:58:26.058789",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
   "kaggle": {
    "accelerator": "none",
-   "dataSources": [],
+   "dataSources": [
+    {
+     "datasetId": 5436839,
+     "sourceId": 9022040,
+     "sourceType": "datasetVersion"
+    }
+   ],
+   "dockerImageVersionId": 30746,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
    "language": "python",
@@ -72,14 +137,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.70981,
-   "end_time": "2024-07-24T04:23:59.916182",
+   "duration": 5.081495,
+   "end_time": "2024-07-25T12:58:26.789435",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-07-24T04:23:55.206372",
+   "start_time": "2024-07-25T12:58:21.707940",
    "version": "2.5.0"
   }
  },
